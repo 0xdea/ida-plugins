@@ -169,6 +169,14 @@ var tabledata = [
  last: "20220906",
  desc: "A helper tool to grab binary blobs from IDA-analyzed binaries and wrap them via Python."},
 
+ {name: "augur",
+ url: "https://github.com/0xdea/augur",
+ src: "rs",
+ cats: "decomp",
+ last: "20250917",
+ vers: "0.7.1",
+ desc: "Headless plugin for reverse engineering that extracts strings and related pseudocode from a binary file."},
+
 {name: "AutoLibcFlags",
  url: "https://github.com/0xMirasio/IDALibcAutoFlags",
  src: "py",
@@ -1345,6 +1353,14 @@ var tabledata = [
  vers: "6.8",
  desc: "Find GUID/UUIDs. The COM side of RE'ing (at least with \"dead listing\") can be pretty elusive. With this you can at least partially glean what interfaces and classes a target is using."},
 
+ {name: "haruspex",
+ url: "https://github.com/0xdea/haruspex",
+ src: "rs",
+ cats: "decomp",
+ last: "20250917",
+ vers: "0.7.1",
+ desc: "Headless plugin for vulnerability research that extracts pseudocode from the IDA Hex-Rays decompiler."},
+
 {name: "HashDB IDA",
  url: "https://github.com/OALabs/hashdb-ida",
  src: "py",
@@ -2024,6 +2040,14 @@ var tabledata = [
  last: "20210922",
  vers: "7.0",
  desc: "IDA Pro key checker tool, check IDA keys from the command line."},
+
+ {name: "idalib",
+ url: "https://github.com/binarly-io/idalib",
+ src: "rs",
+ cats: "dev",
+ last: "20250917",
+ vers: "0.7.2",
+ desc: "Idiomatic Rust bindings for the IDA SDK, enabling the development of standalone analysis tools using IDA v9.x's idalib."},
 
 {name: "idalink",
  url: "https://github.com/zardus/idalink",
@@ -3758,6 +3782,13 @@ var tabledata = [
  last: "20220527",
  vers: "7.6",
  desc: "Realtime sync plugin for IDA Pro, Binary Ninja and Vivisect: realtime cross-tool collaborative reverse engineering."},
+
+ {name: "rhabdomancer",
+ url: "https://github.com/0xdea/rhabdomancer",
+ src: "rs",
+ last: "20250917",
+ vers: "0.7.1",
+ desc: "Headless plugin for vulnerability research that locates calls to potentially insecure API functions in a binary file."},
 
 {name: "rizzo",
  url: "https://github.com/devttys0/ida/tree/master/plugins/rizzo",
