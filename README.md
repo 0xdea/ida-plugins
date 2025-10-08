@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-618 plugins
+622 plugins
 * [3DS-Code-Loader](https://github.com/SinaMegapolis/3DS-Code-Loader): IDA Pro 7.6 Plugin to load ExeFS and CRO code from CXI files.<br>
 _Updated: 2022 08 01 &nbsp;&nbsp; Language: C++_
 
@@ -90,6 +90,9 @@ _Updated: 2023 03 27 &nbsp;&nbsp; Language: Python_
 
 * [Appcut](https://github.com/desperadosec/appcut): A helper tool to grab binary blobs from IDA-analyzed binaries and wrap them via Python.<br>
 _Updated: 2022 09 06 &nbsp;&nbsp; Language: Python_
+
+* [augur](https://github.com/0xdea/augur): Headless plugin for reverse engineering that extracts strings and related pseudocode from a binary file.<br>
+_Updated: 2025 09 17 &nbsp;&nbsp; Language: Rust_
 
 * [AutoLibcFlags](https://github.com/0xMirasio/IDALibcAutoFlags): Simple plugin to replace decimals flags with enums on standard libc functions.<br>
 _Updated: 2024 03 11 &nbsp;&nbsp; Language: Python_
@@ -598,6 +601,9 @@ _Updated: 2014 11 20 &nbsp;&nbsp; Language: C++_
 * [GUID-Finder](https://github.com/nihilus/guid-finder): Find GUID/UUIDs. The COM side of RE'ing (at least with "dead listing") can be pretty elusive. With this you can at least partially glean what interfaces and classes a target is using.<br>
 _Updated: 2016 01 24 &nbsp;&nbsp; Language: Python_
 
+* [haruspex](https://github.com/0xdea/haruspex): Headless plugin for vulnerability research that extracts pseudocode from the IDA Hex-Rays decompiler.<br>
+_Updated: 2025 09 17 &nbsp;&nbsp; Language: Rust_
+
 * [HashDB IDA](https://github.com/OALabs/hashdb-ida): Malware string hash lookup plugin for IDA Pro. This plugin connects to the OALABS HashDB Lookup Service.<br>
 _Updated: 2024 10 15 &nbsp;&nbsp; Language: Python_
 
@@ -885,6 +891,9 @@ _Updated: 2023 06 26 &nbsp;&nbsp; Language: Python_
 
 * [IDA Key Checker](https://github.com/pr701/ida_key_checker): IDA Pro key checker tool, check IDA keys from the command line.<br>
 _Updated: 2021 09 22 &nbsp;&nbsp; Language: C++_
+
+* [idalib](https://github.com/binarly-io/idalib): Idiomatic Rust bindings for the IDA SDK, enabling the development of standalone analysis tools using IDA v9.x's idalib.<br>
+_Updated: 2025 09 17 &nbsp;&nbsp; Language: Rust_
 
 * [idalink](https://github.com/zardus/idalink): Some glue facilitating remote use of IDA Python API. idalink works by spawning an IDA CLI session in the background (in a detached screen session), and connects to it using RPyC.<br>
 _Updated: 2020 07 14 &nbsp;&nbsp; Language: Python_
@@ -1640,6 +1649,9 @@ _Updated: 2024 10 22 &nbsp;&nbsp; Language: Python_
 
 * [Revsync](https://github.com/lunixbochs/revsync): Realtime sync plugin for IDA Pro, Binary Ninja and Vivisect: realtime cross-tool collaborative reverse engineering.<br>
 _Updated: 2022 05 27 &nbsp;&nbsp; Language: Python_
+
+* [rhabdomancer](https://github.com/0xdea/rhabdomancer): Headless plugin for vulnerability research that locates calls to potentially insecure API functions in a binary file.<br>
+_Updated: 2025 09 17 &nbsp;&nbsp; Language: Rust_
 
 * [rizzo](https://github.com/devttys0/ida/tree/master/plugins/rizzo): Identifies and re-names functions between two or more IDBs based on:
   * Formal signatures (i.e., exact function signatures)
