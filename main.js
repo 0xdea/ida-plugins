@@ -23,7 +23,7 @@ table.on("dataFiltered", function(filters, rows){
 
 /** Src filter. */
 let src = [];
-const src_checkboxes = [ "#src-cpp", "#src-py" ];
+const src_checkboxes = [ "#src-cpp", "#src-py", "#src-rs" ];
 
 /** Category filter. */
 let cats = [];

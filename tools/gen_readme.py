@@ -34,7 +34,7 @@ def desc_to_md(desc: str):
     return fixed
 
 
-SRC_MAP = {"c++": "C++", "py": "Python", "php": "PHP", "scm": "Scheme"}
+SRC_MAP = {"c++": "C++", "py": "Python", "php": "PHP", "scm": "Scheme", "rs": "Rust"}
 """Human-readable language names."""
 
 def print_trailer(info):
